@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Convey" Version="0.3.106" />
+    <PackageReference Include="Convey.CQRS.Commands" Version="0.3.94" />
+    <PackageReference Include="Convey.Docs.Swagger" Version="0.3.94" />
+    <PackageReference Include="Convey.HTTP" Version="0.3.94" />
+    <PackageReference Include="Convey.Logging" Version="0.3.94" />
+    <PackageReference Include="Convey.Logging.CQRS" Version="0.3.94" />
+    <PackageReference Include="Convey.MessageBrokers" Version="0.3.106" />
+    <PackageReference Include="Convey.MessageBrokers.Outbox" Version="0.3.106" />
+    <PackageReference Include="Convey.WebApi" Version="0.3.94" />
+    <PackageReference Include="Convey.WebApi.CQRS" Version="0.3.94" />
+    <PackageReference Include="Convey.WebApi.Swagger" Version="0.3.94" />
+    <PackageReference Include="Dommel" Version="1.11.0" />
+  </ItemGroup>
+
+</Project>
